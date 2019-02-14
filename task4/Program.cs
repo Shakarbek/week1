@@ -10,8 +10,8 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            int[,] k = new int[n,n];
+            int n = int.Parse(Console.ReadLine());// введенную строку переобразуем в число через Parse 
+            int[,] k = new int[n,n];//создаем двумерный массив к n на n
 
             for(int i=1; i<=n; i++)
             {
